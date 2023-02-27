@@ -4,9 +4,11 @@ Kenneth Nguyen, PID A17458399, B270 Thursday 10AM
 ## Step-by-Step of reproducing the Competition on your own
 
 1. (SETUP) Initially delete the repository from my GitHub
+
 ![SS](1.jpg)
 
 2. (SETUP) Fork the Repository to my personal GitHub account
+
 ![SS](2.jpg)
 > Shown above, the the repo is is about to be forked.
 
@@ -14,15 +16,18 @@ Kenneth Nguyen, PID A17458399, B270 Thursday 10AM
 > Shown above, the the repo is forked to my account.
 
 4. Start the timer! Logging into ieng6 using my personal remote computer, cse15laqh
+
 ![SS](4.jpg)
 > Shown above; no passwod is needed to log in after my ssh file because we added the key to my .ssh local computer.
 
 5. Remove the lab7 directory previously cloned
+
 ![SS](5.jpg)
 > Shown above, we `cd ~` to go to home, ls to see the file, remove using `rm -rf` the directory, then ls again to show that we've deleted the directory `lab7`
 
 6. Clone the repository from GitHub
-![SS}(6.jpg)
+
+![SS](6.jpg)
 > Reclone the directory with `git clone <path>:`, <path> provided in screenshot via SSH tab. The screenshot shows the directory being cloned locally.
 
 7. Run the code, demonstrating it fails. Then, edit the code to fix the failing test.
@@ -31,10 +36,12 @@ Kenneth Nguyen, PID A17458399, B270 Thursday 10AM
 - `javac ListExamples.java` to compile ListExamples
 - `javac -cp .:lib/hamcrest...` to compile the JUnit tester, copy + paste command from Lab3.
 - `java -cp .:lib/hamcrest...` to run the JUnit tester.
+
 ![SS](7.jpg)
 > Shown in the screenshot, the JUnit runner code fails.
 
 To debug, run `nano` on the file and fix the bug that you've located.
+
 ![SS](8.jpg)
 
 > On your keyboard, press the <down-arrow> key however many times it requires to get to the bottom of the program, and change the last index1 to index2, using <right-arrow> key as shown where the cursor is, shown on the screenshot below.
@@ -65,3 +72,4 @@ To debug, run `nano` on the file and fix the bug that you've located.
 > As the screenshot shows, the git push succeeded.
 
 ## The END!
+This is the end of the tutorial by Kenneth Nguyen
