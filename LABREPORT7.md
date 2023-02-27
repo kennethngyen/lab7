@@ -45,9 +45,9 @@ To debug, run `nano` on the file and fix the bug that you've located.
 
 8. Run the tests, demonstrating that they now succeed
 - To do this, run
-  - <up><up><up><up><enter> → `javac ListExamples.java`
-  - <up><up><up><up><enter> → `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
-  - <up><up><up><up><enter> → `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
+  - `<up><up><up><up><enter>` → `javac ListExamples.java`
+  - `<up><up><up><up><enter>` → `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java`
+  - `<up><up><up><up><enter>` → `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples`
 - Since the commands followed by the arrows → were 4 up commands up, hit the <up> arrow key 4 times and hit enter to recompile and re-execute the code.
 
   
