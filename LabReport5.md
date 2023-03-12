@@ -1,5 +1,5 @@
 # Lab Report 5, by Kenneth Nguyen PID A17458399
-**For this Lab Report, I will be demonstrating that my `grade.sh file` works on the exmaple repositories provided in *Week 6 Lab Write-up*.**
+## **For this Lab Report, I will be demonstrating that my `grade.sh file` works on the exmaple repositories provided in *Week 6 Lab Write-up*.**
 
 ## 1. Default Example provided in the original repository with logic error
 ![alt text](L1.jpg)
